@@ -115,7 +115,7 @@
           .find('>ul.sf-hidden').hide().removeClass('sf-hidden');
       sf.IE7fix.call($ul);
       o.onBeforeShow.call($ul);
-      $ul.animate(o.animation,o.speed,function(){ sf.IE7fix.call($ul); o.onShow.call($ul); });
+      $ul.show(0,function(){ sf.IE7fix.call($ul); o.onShow.call($ul); });
       return this;
     }
   });
