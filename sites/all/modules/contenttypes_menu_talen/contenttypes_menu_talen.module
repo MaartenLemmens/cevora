@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the contenttypes-menu-talen feature.
+ */
+
+include_once 'contenttypes_menu_talen.features.inc';
