@@ -1,0 +1,14 @@
+Contact informatie
+
+Contact informatie voor Cevora
+
+<div class="contactinfo">
+<span class="contacttitle">CONTACT</span>
+<ul class="contact_wrapper">
+<li>Eugène Plaskylaan 144</li>
+<li>1030 Brussel</li>
+<li>078/15 36 02</li>
+<li>02/734 52 32</li>
+<li>contact@cevora.be</li>
+</ul>
+</div>
