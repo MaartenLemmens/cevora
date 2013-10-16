@@ -1,0 +1,5 @@
+name = Footer menus
+description = Drie menu-blocks voor gebruik in de footer
+package = Custom
+core = 7.x
+version = 1.0

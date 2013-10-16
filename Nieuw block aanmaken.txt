@@ -1,0 +1,8 @@
+Title
+footer_links
+
+Block description
+Cevora site footer
+
+Block body
+<div class="footer_img_wrapper"><a class="cevora_footer_link" href="http://www.cevora.be"></a><a class="aclvb_footer_link" href="http://www.aclvb.be"></a><a class="acv_footer_link" href="https://lbc-nvk.acv-online.be/"></a><a class="cne_footer_link" href="http://www.cne-gnc.be/"></a><a class="bbtk_footer_link" href="http://www.bbtk.org"></a><a class="vbo_footer_link" href="http://vbo-feb.be"></a><a class="iso_footer_link" href="http://www.iso.org"></a><a class="werkzoekenden_footer_link" href="http://www.cevora.be/voorwerkzoekenden"></a></div>

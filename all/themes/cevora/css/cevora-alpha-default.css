@@ -9,6 +9,82 @@
 	background: url('../img/bg_header3_4px.png') repeat;
 }
 
+.footer_img_wrapper
+{
+	height: 80px;
+	width: 100%;
+}
+
+.footer_img_wrapper a
+{
+	margin: 0.5% 2.3%;
+}
+
+.cevora_footer_link
+{
+	display: inline-block;
+	background: url('../img/cevoraoldlogo.png') no-repeat;
+	width: 63px;
+	height: 55px;
+}
+
+.aclvb_footer_link
+{
+	display: inline-block;
+	background: url('../img/aclvb.png') no-repeat;
+	width: 50px;
+	height: 63px;
+}
+
+.acv_footer_link
+{
+	display: inline-block;
+	background: url('../img/lb.png') no-repeat;
+	width: 75px;
+	height: 38px;
+}
+
+.cne_footer_link
+{
+	display: inline-block;
+	background: url('../img/cne.png') no-repeat;
+	width: 69px;
+	height: 34px;
+	margin: auto;
+}
+
+.bbtk_footer_link
+{
+	display: inline-block;
+	background: url('../img/bbtk.png') no-repeat;
+	width: 70px;
+	height: 40px;
+}
+
+.vbo_footer_link
+{
+	display: inline-block;
+	background: url('../img/vbo.png') no-repeat;
+	width: 97px;
+	height: 28px;
+}
+
+.iso_footer_link
+{
+	display: inline-block;
+	background: url('../img/ISO80.png') no-repeat;
+	width: 64px;
+	height: 64px;
+}
+
+.werkzoekenden_footer_link
+{
+	display: inline-block;
+	background: url('../img/jobber.png') no-repeat;
+	width: 73px;
+	height: 30px;
+}
+
 /*-----------------------------------------------------------------------------------------------------*/
 /*----------------------------------<<<<<<<<<< Superfish CSS  >>>>>>>>>>>>>>---------------------------*/
 /*-----------------------------------------------------------------------------------------------------*/

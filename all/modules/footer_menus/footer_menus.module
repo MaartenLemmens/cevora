@@ -1,0 +1,41 @@
+/**
+ * Implements hook_menu_block_blocks().
+ */
+function footer_menus_menu_block_blocks() {
+  // The array key is the block delta used by menu block.
+  return array(
+    'footer_menus-1' => array(
+      'menu_name'   => 'main-menu',
+      'parent_mlid' => 530,
+      'title_link'  => 0,
+      'admin_title' => '',
+      'level'       => 1,
+      'follow'      => 0,
+      'depth'       => 1,
+      'expanded'    => 0,
+      'sort'        => 0,
+    ),
+    'footer_menus-2' => array(
+      'menu_name'   => 'main-menu',
+      'parent_mlid' => 532,
+      'title_link'  => 0,
+      'admin_title' => '',
+      'level'       => 1,
+      'follow'      => 0,
+      'depth'       => 1,
+      'expanded'    => 0,
+      'sort'        => 0,
+    ),
+    'footer_menus-3' => array(
+      'menu_name'   => 'main-menu',
+      'parent_mlid' => 534,
+      'title_link'  => 0,
+      'admin_title' => '',
+      'level'       => 1,
+      'follow'      => 0,
+      'depth'       => 1,
+      'expanded'    => 0,
+      'sort'        => 0,
+    ),
+  );
+}
