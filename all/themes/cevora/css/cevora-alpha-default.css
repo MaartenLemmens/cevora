@@ -116,7 +116,7 @@
 {
 	background-color: orange;
 	text-align: center;
-	width: 25%;
+	width: 30%;
 	padding: 2% 0;
 	cursor: pointer;
 	margin: 0;
@@ -126,17 +126,17 @@
 {
 	background-color: #3047F0;
 	text-align: center;
-	width: 25%;
+	width: 30%;
 	padding: 2% 0;
 	cursor: pointer;
-	margin: 0 4%;
+	margin: 0 5%;
 }
 
 #menu-534-1 /* Werkzoekenden */
 {
 	background-color: green;
 	text-align: center;
-	width: 25%;
+	width: 30%;
 	padding: 2% 0;
 	cursor: pointer;
 	margin: 0;
