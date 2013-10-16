@@ -114,7 +114,7 @@
 
 #menu-530-1 /* Bedrijven */
 {
-	background-color: orange;
+	background-color: #f08a36;
 	text-align: center;
 	width: 30%;
 	padding: 2% 0;
@@ -124,7 +124,7 @@
 
 #menu-532-1 /* Werknemers */
 {
-	background-color: #3047F0;
+	background-color: #3e3266;
 	text-align: center;
 	width: 30%;
 	padding: 2% 0;
@@ -134,7 +134,7 @@
 
 #menu-534-1 /* Werkzoekenden */
 {
-	background-color: green;
+	background-color: #95bc0e;
 	text-align: center;
 	width: 30%;
 	padding: 2% 0;
@@ -163,7 +163,7 @@
 
 #menu-561-1:hover, #menu-562-1:hover, #menu-563-1:hover, #menu-564-1:hover, #menu-565-1:hover, #menu-566-1:hover
 {
-	background-color: orange !important;
+	background-color: #f08a36 !important;
 	padding: 1.2% !important; 
 }
 
@@ -183,7 +183,7 @@
 
 #menu-607-1:hover, #menu-608-1:hover, #menu-609-1:hover, #menu-610-1:hover, #menu-611-1:hover
 {
-	background-color: #3047F0 !important;
+	background-color: #3e3266 !important;
 	padding: 1.2% !important;
 }
 
@@ -203,7 +203,7 @@
 
 #menu-645-1:hover, #menu-646-1:hover, #menu-647-1:hover, #menu-648-1:hover
 {
-	background-color: green !important;
+	background-color: #95bc0e !important;
 	padding: 1.2% !important;
 }
 
@@ -217,7 +217,7 @@
 #menu-530-1 .sf-depth-2 ul
 {
 	background-color: white !important;
-	border: solid 2px orange;
+	border: solid 2px #f08a36;
 	width: 400px !important;
 	text-align: left !important;
 }
@@ -233,7 +233,7 @@
 
 #menu-530-1 .sf-depth-2 ul li:hover
 {
-	background-color: orange !important;
+	background-color: #f08a36 !important;
 }
 
 #menu-530-1 .sf-depth-2 ul li a
@@ -251,7 +251,7 @@
 #menu-532-1 .sf-depth-2 ul
 {
 	background-color: white !important;
-	border: solid 2px #3047F0;
+	border: solid 2px #3e3266;
 	width: 400px !important;
 	text-align: left !important;
 }
@@ -267,7 +267,7 @@
 
 #menu-532-1 .sf-depth-2 ul li:hover
 {	
-	background-color: #3047F0 !important;
+	background-color: #3e3266 !important;
 }
 
 #menu-532-1 .sf-depth-2 ul li a
@@ -285,7 +285,7 @@
 #menu-534-1 .sf-depth-2 ul
 {
 	background-color: white !important;
-	border: solid 2px green;
+	border: solid 2px #95bc0e;
 	width: 400px !important;
 	text-align: left !important;
 }
@@ -302,7 +302,7 @@
 #menu-534-1 .sf-depth-2 ul li:hover
 {
 	
-	background-color: green !important;
+	background-color: #95bc0e !important;
 }
 
 #menu-534-1 .sf-depth-2 ul li a
@@ -323,7 +323,7 @@
 
 #menu-529-1 /* Bedrijven */
 {
-	background-color: orange;
+	background-color: #f08a36;
 	text-align: center;
 	width: 25%;
 	padding: 2% 0;
@@ -333,7 +333,7 @@
 
 #menu-531-1 /* Werknemers */
 {
-	background-color: #3047F0;
+	background-color: #3e3266;
 	text-align: center;
 	width: 25%;
 	padding: 2% 0;
@@ -343,7 +343,7 @@
 
 #menu-533-1 /* Werkzoekenden */
 {
-	background-color: green;
+	background-color: #95bc0e;
 	text-align: center;
 	width: 25%;
 	padding: 2% 0;
@@ -372,7 +372,7 @@
 
 #menu-536-1:hover, #menu-537-1:hover, #menu-538-1:hover, #menu-539-1:hover, #menu-540-1:hover, #menu-541-1:hover
 {
-	background-color: orange !important;
+	background-color: #f08a36 !important;
 	padding: 1.2% !important; 
 }
 
@@ -392,7 +392,7 @@
 
 #menu-586-1:hover, #menu-587-1:hover, #menu-588-1:hover, #menu-589-1:hover, #menu-590-1:hover
 {
-	background-color: #3047F0 !important;
+	background-color: #3e3266 !important;
 	padding: 1.2% !important;
 }
 
@@ -412,7 +412,7 @@
 
 #menu-628-1:hover, #menu-629-1:hover, #menu-630-1:hover, #menu-631-1:hover
 {
-	background-color: green !important;
+	background-color: #95bc0e !important;
 	padding: 1.2% !important;
 }
 
@@ -426,7 +426,7 @@
 #menu-529-1 .sf-depth-2 ul
 {
 	background-color: white !important;
-	border: solid 2px orange;
+	border: solid 2px #f08a36;
 	width: 400px !important;
 	text-align: left !important;
 }
@@ -442,7 +442,7 @@
 
 #menu-529-1 .sf-depth-2 ul li:hover
 {
-	background-color: orange !important;
+	background-color: #f08a36 !important;
 }
 
 #menu-529-1 .sf-depth-2 ul li a
@@ -460,7 +460,7 @@
 #menu-531-1 .sf-depth-2 ul
 {
 	background-color: white !important;
-	border: solid 2px #3047F0;
+	border: solid 2px #3e3266;
 	width: 400px !important;
 	text-align: left !important;
 }
@@ -476,7 +476,7 @@
 
 #menu-531-1 .sf-depth-2 ul li:hover
 {	
-	background-color: #3047F0 !important;
+	background-color: #3e3266 !important;
 }
 
 #menu-531-1 .sf-depth-2 ul li a
@@ -494,7 +494,7 @@
 #menu-533-1 .sf-depth-2 ul
 {
 	background-color: white !important;
-	border: solid 2px green;
+	border: solid 2px #95bc0e;
 	width: 400px !important;
 	text-align: left !important;
 }
@@ -511,7 +511,7 @@
 #menu-533-1 .sf-depth-2 ul li:hover
 {
 	
-	background-color: green !important;
+	background-color: #95bc0e !important;
 }
 
 #menu-533-1 .sf-depth-2 ul li a
