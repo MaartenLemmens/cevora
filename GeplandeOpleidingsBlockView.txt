@@ -1,0 +1,159 @@
+$view = new view();
+$view->name = 'geplandeopleidingblock';
+$view->description = '';
+$view->tag = 'default';
+$view->base_table = 'node';
+$view->human_name = 'GeplandeOpleidingBlock';
+$view->core = 7;
+$view->api_version = '3.0';
+$view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+/* Display: Master */
+$handler = $view->new_display('default', 'Master', 'default');
+$handler->display->display_options['title'] = 'Geplande Opleidingen block';
+$handler->display->display_options['use_more_always'] = FALSE;
+$handler->display->display_options['use_more_text'] = 'meer';
+$handler->display->display_options['access']['type'] = 'perm';
+$handler->display->display_options['cache']['type'] = 'none';
+$handler->display->display_options['query']['type'] = 'views_query';
+$handler->display->display_options['exposed_form']['type'] = 'basic';
+$handler->display->display_options['pager']['type'] = 'some';
+$handler->display->display_options['pager']['options']['items_per_page'] = '';
+$handler->display->display_options['pager']['options']['offset'] = '0';
+$handler->display->display_options['style_plugin'] = 'table';
+$handler->display->display_options['style_options']['row_class_special'] = FALSE;
+$handler->display->display_options['style_options']['columns'] = array(
+  'field_gemeente' => 'field_gemeente',
+  'field_startdatum_1' => 'field_startdatum_1',
+  'field_geplande_data2' => 'field_geplande_data2',
+  'field_versie' => 'field_versie',
+  'field_wanneer' => 'field_wanneer',
+);
+$handler->display->display_options['style_options']['default'] = '-1';
+$handler->display->display_options['style_options']['info'] = array(
+  'field_gemeente' => array(
+    'sortable' => 0,
+    'default_sort_order' => 'asc',
+    'align' => '',
+    'separator' => '',
+    'empty_column' => 0,
+  ),
+  'field_startdatum_1' => array(
+    'sortable' => 0,
+    'default_sort_order' => 'asc',
+    'align' => '',
+    'separator' => '',
+    'empty_column' => 0,
+  ),
+  'field_geplande_data2' => array(
+    'align' => '',
+    'separator' => '',
+    'empty_column' => 0,
+  ),
+  'field_versie' => array(
+    'sortable' => 0,
+    'default_sort_order' => 'asc',
+    'align' => '',
+    'separator' => '',
+    'empty_column' => 0,
+  ),
+  'field_wanneer' => array(
+    'sortable' => 0,
+    'default_sort_order' => 'asc',
+    'align' => '',
+    'separator' => '',
+    'empty_column' => 0,
+  ),
+);
+/* Relationship: Entity Reference: Referenced Entity */
+$handler->display->display_options['relationships']['field_opleiding_target_id']['id'] = 'field_opleiding_target_id';
+$handler->display->display_options['relationships']['field_opleiding_target_id']['table'] = 'field_data_field_opleiding';
+$handler->display->display_options['relationships']['field_opleiding_target_id']['field'] = 'field_opleiding_target_id';
+$handler->display->display_options['relationships']['field_opleiding_target_id']['label'] = 'Content entity referenced from field_opleiding';
+/* Veld: Inhoud: Gemeente */
+$handler->display->display_options['fields']['field_gemeente']['id'] = 'field_gemeente';
+$handler->display->display_options['fields']['field_gemeente']['table'] = 'field_data_field_gemeente';
+$handler->display->display_options['fields']['field_gemeente']['field'] = 'field_gemeente';
+/* Veld: Inhoud: Startdatum */
+$handler->display->display_options['fields']['field_startdatum_1']['id'] = 'field_startdatum_1';
+$handler->display->display_options['fields']['field_startdatum_1']['table'] = 'field_data_field_startdatum';
+$handler->display->display_options['fields']['field_startdatum_1']['field'] = 'field_startdatum';
+$handler->display->display_options['fields']['field_startdatum_1']['settings'] = array(
+  'format_type' => 'custom_d_m_y',
+  'fromto' => 'both',
+  'multiple_number' => '',
+  'multiple_from' => '',
+  'multiple_to' => '',
+);
+/* Veld: Inhoud: Geplande data */
+$handler->display->display_options['fields']['field_geplande_data2']['id'] = 'field_geplande_data2';
+$handler->display->display_options['fields']['field_geplande_data2']['table'] = 'field_data_field_geplande_data2';
+$handler->display->display_options['fields']['field_geplande_data2']['field'] = 'field_geplande_data2';
+$handler->display->display_options['fields']['field_geplande_data2']['settings'] = array(
+  'format_type' => 'custom_d_m_y',
+  'fromto' => 'both',
+  'multiple_number' => '',
+  'multiple_from' => '',
+  'multiple_to' => '',
+);
+$handler->display->display_options['fields']['field_geplande_data2']['delta_offset'] = '0';
+/* Veld: Inhoud: Versie */
+$handler->display->display_options['fields']['field_versie']['id'] = 'field_versie';
+$handler->display->display_options['fields']['field_versie']['table'] = 'field_data_field_versie';
+$handler->display->display_options['fields']['field_versie']['field'] = 'field_versie';
+/* Veld: Inhoud: Wanneer */
+$handler->display->display_options['fields']['field_wanneer']['id'] = 'field_wanneer';
+$handler->display->display_options['fields']['field_wanneer']['table'] = 'field_data_field_wanneer';
+$handler->display->display_options['fields']['field_wanneer']['field'] = 'field_wanneer';
+/* Veld: Inhoud: Inschrijven */
+$handler->display->display_options['fields']['field_inschrijven']['id'] = 'field_inschrijven';
+$handler->display->display_options['fields']['field_inschrijven']['table'] = 'field_data_field_inschrijven';
+$handler->display->display_options['fields']['field_inschrijven']['field'] = 'field_inschrijven';
+/* Contextual filter: Inhoud: Nid */
+$handler->display->display_options['arguments']['nid']['id'] = 'nid';
+$handler->display->display_options['arguments']['nid']['table'] = 'node';
+$handler->display->display_options['arguments']['nid']['field'] = 'nid';
+$handler->display->display_options['arguments']['nid']['relationship'] = 'field_opleiding_target_id';
+$handler->display->display_options['arguments']['nid']['default_action'] = 'not found';
+$handler->display->display_options['arguments']['nid']['exception']['title'] = 'Alle';
+$handler->display->display_options['arguments']['nid']['default_argument_type'] = 'fixed';
+$handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
+$handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
+$handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
+/* Filter criterion: Inhoud: Gepubliceerd */
+$handler->display->display_options['filters']['status']['id'] = 'status';
+$handler->display->display_options['filters']['status']['table'] = 'node';
+$handler->display->display_options['filters']['status']['field'] = 'status';
+$handler->display->display_options['filters']['status']['value'] = 1;
+$handler->display->display_options['filters']['status']['group'] = 1;
+$handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+/* Filter criterion: Inhoud: Type */
+$handler->display->display_options['filters']['type']['id'] = 'type';
+$handler->display->display_options['filters']['type']['table'] = 'node';
+$handler->display->display_options['filters']['type']['field'] = 'type';
+$handler->display->display_options['filters']['type']['value'] = array(
+  'geplande_opleiding' => 'geplande_opleiding',
+);
+$handler->display->display_options['filters']['type']['group'] = 1;
+
+/* Display: Block */
+$handler = $view->new_display('block', 'Block', 'block');
+$translatables['geplandeopleidingblock'] = array(
+  t('Master'),
+  t('Geplande Opleidingen block'),
+  t('meer'),
+  t('Apply'),
+  t('Reset'),
+  t('Sort by'),
+  t('Asc'),
+  t('Desc'),
+  t('Content entity referenced from field_opleiding'),
+  t('Gemeente'),
+  t('Startdatum'),
+  t('Geplande data'),
+  t('Versie'),
+  t('Wanneer'),
+  t('Inschrijven'),
+  t('Alle'),
+  t('Block'),
+);
