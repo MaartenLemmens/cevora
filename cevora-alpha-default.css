@@ -1,0 +1,594 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*----------------------------------<<<<<<<<<<< Algemene CSS  >>>>>>>>>>>>>>---------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+#zone-user-wrapper, #zone-branding-wrapper, #zone-menu-wrapper
+{
+	background: url('../img/bg_header3_4px.png') repeat;
+}
+
+#edit-submit--3
+{
+	background-image: url('../img/searchsmall.png');
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	border-radius: 0;
+	background-color: transparent;
+	text-indent: 1000px;
+	margin: 0;
+}
+
+#edit-search-block-form--2
+{
+	border: solid 1px black;
+	height: 30px;
+	width: 135px;
+	margin: 0;
+}
+
+#search-block-form
+{
+	margin: 30% 0;
+}
+
+.views-field-field-startdatum
+{
+	display: inline-block;
+}
+
+.views-field-title
+{
+	display: inline-block;
+}
+
+.form-item-search-block-form
+{
+	padding: 0;
+	margin: 0;
+}
+
+.logo-img
+{
+	margin: 30% 0 25% 0;
+}
+
+.language-switcher-locale-url
+{
+	list-style: none;
+	margin-top: 30%;
+}
+
+.language-switcher-locale-url li
+{
+	display: inline-block;
+	margin: 1% 15% 0 0;
+}
+
+.language-switcher-locale-url a
+{
+	text-decoration: none;
+	color: darkgrey;
+}
+
+.nivoSlider
+{
+	margin-top: 6.5%;
+}
+
+.footer_img_wrapper
+{
+	height: 80px;
+	width: 100%;
+}
+
+.footer_img_wrapper a
+{
+	margin: 0.5% 2.3%;
+}
+
+.cevora_footer_link
+{
+	display: inline-block;
+	background: url('../img/cevoraoldlogo.png') no-repeat;
+	width: 63px;
+	height: 55px;
+}
+
+.aclvb_footer_link
+{
+	display: inline-block;
+	background: url('../img/aclvb.png') no-repeat;
+	width: 50px;
+	height: 63px;
+}
+
+.acv_footer_link
+{
+	display: inline-block;
+	background: url('../img/lb.png') no-repeat;
+	width: 75px;
+	height: 38px;
+}
+
+.cne_footer_link
+{
+	display: inline-block;
+	background: url('../img/cne.png') no-repeat;
+	width: 69px;
+	height: 34px;
+	margin: auto;
+}
+
+.bbtk_footer_link
+{
+	display: inline-block;
+	background: url('../img/bbtk.png') no-repeat;
+	width: 70px;
+	height: 40px;
+}
+
+.vbo_footer_link
+{
+	display: inline-block;
+	background: url('../img/vbo.png') no-repeat;
+	width: 97px;
+	height: 28px;
+}
+
+.iso_footer_link
+{
+	display: inline-block;
+	background: url('../img/ISO80.png') no-repeat;
+	width: 64px;
+	height: 64px;
+}
+
+.werkzoekenden_footer_link
+{
+	display: inline-block;
+	background: url('../img/jobber.png') no-repeat;
+	width: 73px;
+	height: 30px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*----------------------------------<<<<<<<<<< Superfish CSS  >>>>>>>>>>>>>>---------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+#superfish-1 a
+{
+	text-decoration: none;
+}
+
+.block-inner .block-title
+{
+	display: none;
+}
+
+.sf-depth-1 a, .sf-depth-1 a, .sf-depth-1 a
+{
+	color:white !important;
+}
+
+.sf-depth-2 a, .sf-depth-2 a, .sf-depth-2 a
+{
+	color:black !important;
+}
+
+/* EERSTE NIVEAU, Alle 3 de menu's */
+
+#menu-530-1 /* Bedrijven */
+{
+	background-color:  #f08a36;
+	text-align: center;
+	width: 30%;
+	padding: 2% 0;
+	cursor: pointer;
+	margin: 0;
+}
+
+#menu-532-1 /* Werknemers */
+{
+	background-color: #3e3266;
+	text-align: center;
+	width: 30%;
+	padding: 2% 0;
+	cursor: pointer;
+	margin: 0 5%;
+}
+
+#menu-534-1 /* Werkzoekenden */
+{
+	background-color: #95bc0e;
+	text-align: center;
+	width: 30%;
+	padding: 2% 0;
+	cursor: pointer;
+	margin: 0;
+}
+
+#menu-530-1 ul, #menu-532-1 ul, #menu-534-1 ul
+{
+	margin-top: 2%;
+}
+
+#menu-530-1 li, #menu-532-1 li, #menu-534-1 li
+{
+	margin: 2% 2% 0 0 !important;
+}
+
+/* TWEEDE NIVEAU - EERSTE MENU (Bedrijven) */
+
+#menu-561-1, #menu-562-1, #menu-563-1, #menu-564-1, #menu-565-1, #menu-566-1
+{
+	background-color: transparent !important;
+	padding: 1.2% !important; 
+	margin: 1% !important;
+}
+
+#menu-561-1:hover, #menu-562-1:hover, #menu-563-1:hover, #menu-564-1:hover, #menu-565-1:hover, #menu-566-1:hover
+{
+	background-color:  #f08a36 !important;
+	padding: 1.2% !important; 
+}
+
+#menu-561-1:hover a, #menu-562-1:hover a, #menu-563-1:hover a, #menu-564-1:hover a, #menu-565-1:hover a, #menu-566-1:hover a
+{
+	color: white !important;
+}
+
+/* TWEEDE NIVEAU - TWEEDE MENU (Werknemers) */
+
+#menu-607-1, #menu-608-1, #menu-609-1, #menu-610-1, #menu-611-1
+{
+	background-color: transparent !important;
+	padding: 1.2% !important; 
+	margin: 1% !important;
+}
+
+#menu-607-1:hover, #menu-608-1:hover, #menu-609-1:hover, #menu-610-1:hover, #menu-611-1:hover
+{
+	background-color: #3e3266 !important;
+	padding: 1.2% !important;
+}
+
+#menu-607-1:hover a, #menu-608-1:hover a, #menu-609-1:hover a, #menu-610-1:hover a, #menu-611-1:hover a
+{
+	color: white !important;
+}
+
+/* TWEEDE NIVEAU - DERDE MENU (Werkzoekenden) */
+
+#menu-645-1, #menu-646-1, #menu-647-1, #menu-648-1
+{
+	background-color: transparent !important;
+	padding: 1.2% !important; 
+	margin: 1% !important; 
+}
+
+#menu-645-1:hover, #menu-646-1:hover, #menu-647-1:hover, #menu-648-1:hover
+{
+	background-color: #95bc0e !important;
+	padding: 1.2% !important;
+}
+
+#menu-645-1:hover a, #menu-646-1:hover a, #menu-647-1:hover a, #menu-648-1:hover a
+{
+	color: white !important;
+}
+
+/* DERDE NIVEAU - EERSTE MENU (Bedrijven) */
+
+#menu-530-1 .sf-depth-2 ul
+{
+	background-color: white !important;
+	border: solid 2px  #f08a36;
+	width: 400px !important;
+	text-align: left !important;
+}
+
+#menu-530-1 .sf-depth-2 ul li
+{
+	height: 40px !important;
+	background-color: white !important;
+	margin: 0 !important;
+	line-height: 40px;
+	text-indent: 15px;
+}
+
+#menu-530-1 .sf-depth-2 ul li:hover
+{
+	background-color:  #f08a36 !important;
+}
+
+#menu-530-1 .sf-depth-2 ul li a
+{
+	color: black !important;
+}
+
+#menu-530-1 .sf-depth-2 ul li:hover a
+{	
+	color: white !important;	
+}
+
+/* DERDE NIVEAU - TWEEDE MENU (Werknemers) */
+
+#menu-532-1 .sf-depth-2 ul
+{
+	background-color: white !important;
+	border: solid 2px #3e3266;
+	width: 400px !important;
+	text-align: left !important;
+}
+
+#menu-532-1 .sf-depth-2 ul li
+{
+	height: 40px !important;
+	background-color: white !important;
+	margin: 0 !important;
+	line-height: 40px;
+	text-indent: 15px;
+}
+
+#menu-532-1 .sf-depth-2 ul li:hover
+{	
+	background-color: #3e3266 !important;
+}
+
+#menu-532-1 .sf-depth-2 ul li a
+{
+	color: black !important;
+}
+
+#menu-532-1 .sf-depth-2 ul li:hover a
+{	
+	color: white !important;
+}
+
+/* DERDE NIVEAU - DERDE MENU (Werkzoekenden) */
+
+#menu-534-1 .sf-depth-2 ul
+{
+	background-color: white !important;
+	border: solid 2px #95bc0e;
+	width: 400px !important;
+	text-align: left !important;
+}
+
+#menu-534-1 .sf-depth-2 ul li
+{
+	height: 40px !important;
+	background-color: white !important;
+	margin: 0 !important;
+	line-height: 40px;
+	text-indent: 15px;
+}
+
+#menu-534-1 .sf-depth-2 ul li:hover
+{
+	
+	background-color: #95bc0e !important;
+}
+
+#menu-534-1 .sf-depth-2 ul li a
+{
+	color: black !important;
+}
+
+#menu-534-1 .sf-depth-2 ul li:hover a
+{	
+	color: white !important;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*----------------------------------<<<<<<<<<< FOR ZE FRENCH  >>>>>>>>>>>>>>---------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+/* EERSTE NIVEAU, Alle 3 de menu's */
+
+#menu-529-1 /* Bedrijven */
+{
+	background-color:  #f08a36;
+	text-align: center;
+	width: 30%;
+	padding: 2% 0;
+	cursor: pointer;
+	margin: 0;
+}
+
+#menu-531-1 /* Werknemers */
+{
+	background-color: #3e3266;
+	text-align: center;
+	width: 30%;
+	padding: 2% 0;
+	cursor: pointer;
+	margin: 0 5%;
+}
+
+#menu-533-1 /* Werkzoekenden */
+{
+	background-color: #95bc0e;
+	text-align: center;
+	width: 30%;
+	padding: 2% 0;
+	cursor: pointer;
+	margin: 0;
+}
+
+#menu-529-1 ul, #menu-531-1 ul, #menu-533-1 ul
+{
+	margin-top: 4%;
+}
+
+#menu-529-1 li, #menu-531-1 li, #menu-533-1 li
+{
+	margin: 0 2.5%;
+}
+
+/* TWEEDE NIVEAU - EERSTE MENU (Bedrijven) */
+
+#menu-536-1, #menu-537-1, #menu-538-1, #menu-539-1, #menu-540-1, #menu-541-1
+{
+	background-color: transparent !important;
+	padding: 1.2% !important; 
+	margin: 1% !important;
+}
+
+#menu-536-1:hover, #menu-537-1:hover, #menu-538-1:hover, #menu-539-1:hover, #menu-540-1:hover, #menu-541-1:hover
+{
+	background-color:  #f08a36 !important;
+	padding: 1.2% !important; 
+}
+
+#menu-536-1:hover a, #menu-537-1:hover a, #menu-538-1:hover a, #menu-539-1:hover a, #menu-540-1:hover a, #menu-541-1:hover a
+{
+	color: white !important;
+}
+
+/* TWEEDE NIVEAU - TWEEDE MENU (Werknemers) */
+
+#menu-586-1, #menu-587-1, #menu-588-1, #menu-589-1, #menu-590-1
+{
+	background-color: transparent !important;
+	padding: 1.2% !important; 
+	margin: 1% !important;
+}
+
+#menu-586-1:hover, #menu-587-1:hover, #menu-588-1:hover, #menu-589-1:hover, #menu-590-1:hover
+{
+	background-color: #3e3266 !important;
+	padding: 1.2% !important;
+}
+
+#menu-586-1:hover a, #menu-587-1:hover a, #menu-588-1:hover a, #menu-589-1:hover a, #menu-590-1:hover a
+{
+	color: white !important;
+}
+
+/* TWEEDE NIVEAU - DERDE MENU (Werkzoekenden) */
+
+#menu-628-1, #menu-629-1, #menu-630-1, #menu-631-1
+{
+	background-color: transparent !important;
+	padding: 1.2% !important; 
+	margin: 1% !important; 
+}
+
+#menu-628-1:hover, #menu-629-1:hover, #menu-630-1:hover, #menu-631-1:hover
+{
+	background-color: #95bc0e !important;
+	padding: 1.2% !important;
+}
+
+#menu-628-1:hover a, #menu-629-1:hover a, #menu-630-1:hover a, #menu-631-1:hover a
+{
+	color: white !important;
+}
+
+/* DERDE NIVEAU - EERSTE MENU (Bedrijven) */
+
+#menu-529-1 .sf-depth-2 ul
+{
+	background-color: white !important;
+	border: solid 2px  #f08a36;
+	width: 400px !important;
+	text-align: left !important;
+}
+
+#menu-529-1 .sf-depth-2 ul li
+{
+	height: 40px !important;
+	background-color: white !important;
+	margin: 0 !important;
+	line-height: 40px;
+	text-indent: 15px;
+}
+
+#menu-529-1 .sf-depth-2 ul li:hover
+{
+	background-color:  #f08a36 !important;
+}
+
+#menu-529-1 .sf-depth-2 ul li a
+{
+	color: black !important;
+}
+
+#menu-529-1 .sf-depth-2 ul li:hover a
+{	
+	color: white !important;	
+}
+
+/* DERDE NIVEAU - TWEEDE MENU (Werknemers) */
+
+#menu-531-1 .sf-depth-2 ul
+{
+	background-color: white !important;
+	border: solid 2px #3e3266;
+	width: 400px !important;
+	text-align: left !important;
+}
+
+#menu-531-1 .sf-depth-2 ul li
+{
+	height: 40px !important;
+	background-color: white !important;
+	margin: 0 !important;
+	line-height: 40px;
+	text-indent: 15px;
+}
+
+#menu-531-1 .sf-depth-2 ul li:hover
+{	
+	background-color: #3e3266 !important;
+}
+
+#menu-531-1 .sf-depth-2 ul li a
+{
+	color: black !important;
+}
+
+#menu-531-1 .sf-depth-2 ul li:hover a
+{	
+	color: white !important;
+}
+
+/* DERDE NIVEAU - DERDE MENU (Werkzoekenden) */
+
+#menu-533-1 .sf-depth-2 ul
+{
+	background-color: white !important;
+	border: solid 2px #95bc0e;
+	width: 400px !important;
+	text-align: left !important;
+}
+
+#menu-533-1 .sf-depth-2 ul li
+{
+	height: 40px !important;
+	background-color: white !important;
+	margin: 0 !important;
+	line-height: 40px;
+	text-indent: 15px;
+}
+
+#menu-533-1 .sf-depth-2 ul li:hover
+{
+	
+	background-color: #95bc0e !important;
+}
+
+#menu-533-1 .sf-depth-2 ul li a
+{
+	color: black !important;
+}
+
+#menu-533-1 .sf-depth-2 ul li:hover a
+{	
+	color: white !important;
+}
